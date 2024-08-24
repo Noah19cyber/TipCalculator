@@ -26,12 +26,13 @@
             <Label
                 Text="Percentual da gorjeta: "/>
             <Label
-                x:Name="PercentLabel"
+                x:Name="TipsPercentLabel"
                 Text="05%"/>
             <Slider
                 Maximum="70"
                 Minimum="00"
                 Value="20"
+                ValueChanged="Slider_ValueChanged"
                 />
 
             <Button x:Name="setLowTip" Text="15%" Clicked="setLowTip_Clicked"/>
