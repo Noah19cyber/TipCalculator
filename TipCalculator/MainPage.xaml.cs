@@ -45,6 +45,10 @@
         {
             TipsPercentLabel.Text = tipSLider.Value.ToString("#.##") + "%";
         }
+        private void Textchanged(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

@@ -12,7 +12,9 @@
 
             <Entry
                 x:Name="AmountEntry" 
-                Placeholder="Digite o Valor da conta"/>
+                Placeholder="Digite o Valor da conta"
+                TextChanged="EntryAmount_TextChange"
+                />
             <Label
                 Text="Gorjeta"/>
             <Label
